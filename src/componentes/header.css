@@ -1,0 +1,50 @@
+.portada__presentacion {
+    background-image: url("https://www.wearemarketing.com/media/cache/dynamic/rc/RzS9Lesh//uploads/media/default/0001/21/1778829c66b7800a38a5c6ec92827c482fc056cb.jpeg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.portada__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-weight: 1000;
+}
+
+blockquote {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 30px;
+    opacity: 0.8;
+    width: auto;
+    height: 40vh;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+
+blockquote small {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+a:hover {
+    border: 1px solid black;
+    border-radius: 30px;
+}

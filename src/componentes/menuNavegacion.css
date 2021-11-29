@@ -1,0 +1,21 @@
+.nav__bar {
+    background-color: gray;
+    padding: 10px;
+}
+
+.navItem {
+    color: black;
+    font-weight: bold;
+    font-family:'Indie Flower', cursive;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navItem:hover {
+    color: white;
+    border: none;
+}
