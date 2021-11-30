@@ -1,0 +1,105 @@
+.trabajos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.trabajos__titulo {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        border-radius: 50px;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        width: 100%;
+        cursor: pointer;
+}
+
+.trabajos__work {
+    display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+.trabajos__webs {
+    width: 80%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            font-family: 'Poppins';
+}
+
+.trabajos__webs a {
+    text-decoration: none;
+                color: black;
+}
+
+.trabajos__img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.trabajos__webs:hover {
+    transform: scale(1, 1);
+    transition: all 0.25s ease-out;
+    background-color: rgb(156, 156, 156);
+}
+
+@media (max-width: 425px) {
+    .trabajos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        width: 100vw;
+    }
+
+    .trabajos__titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        width: 100vw;
+    }
+
+    .trabajos__work {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .trabajos__webs {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .trabajos__img {
+        width: 100%;
+        height: auto;
+    }
+}

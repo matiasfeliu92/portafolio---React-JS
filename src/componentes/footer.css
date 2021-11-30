@@ -1,0 +1,55 @@
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+
+.pie__nombre {
+    font-family: 'Poppins';
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+.pie__nombre em {
+    font-size: 40px;
+    font-style: normal;
+}
+
+.pie__nombre p {
+    font-size: 20px;
+}
+
+.pie__datos em {
+        font-size: 30px;
+        font-style: normal;
+        font-family: 'Poppins';
+}
+
+.pie__redes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .pie {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .pie__redes {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

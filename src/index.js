@@ -5,11 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navegacion from './componentes/menuNavegacion';
 import Header from './componentes/header';
+import Perfil from './componentes/PerfilProfesional';
+import Habilidades from './componentes/Habilidades';
+import Works from './componentes/Trabajos';
+import Footer from './componentes/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navegacion />
     <Header />
+    <Perfil />
+    <Habilidades />
+    <Works />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

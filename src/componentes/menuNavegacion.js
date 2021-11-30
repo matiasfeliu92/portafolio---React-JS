@@ -3,14 +3,14 @@ import './menuNavegacion.css';
 
 class Navegacion extends React.Component {
     render () {
-        // const itemsNav = ["Portada", "Sobre Mi", "Profesional", "Habilidades", "Trabajos Realizados"]
         const itemsNav = [
-            {itemName: "Portada", itemLink: "#"},
-            {itemName: "Sobre Mi", itemLink: "#"},
-            {itemName: "Profesional", itemLink: "#"},
-            {itemName: "Habilidades", itemLink: "#"},
-            {itemName: "Trabajos Realizados", itemLink: "#"},
+            {itemName: "Portada", itemLink: "#Portada"},
+            {itemName: "Sobre Mi", itemLink: "#sobreMi"},
+            {itemName: "Profesional", itemLink: "#profesional"},
+            {itemName: "Habilidades", itemLink: "#habilidades"},
+            {itemName: "Trabajos Realizados", itemLink: "#trabajosRealizados"},
         ]
+
         const ItemsMenu= () => {
             const listItems = itemsNav.map((item) => 
             <li className="text-center p-1"> <a className="navItem" href={item.itemLink}> {item.itemName} </a> </li> 
@@ -31,7 +31,7 @@ class Navegacion extends React.Component {
                         <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-                            <ItemsMenu></ItemsMenu>
+                            <ItemsMenu/>
                         </div>
                     </div>
                 </nav>
