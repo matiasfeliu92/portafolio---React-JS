@@ -37,6 +37,14 @@
     align-items: center;
 }
 
+.pie__redes a {
+    border: none;
+}
+
+.pie__redes a i:hover {
+    color: white;
+}
+
 @media (max-width: 425px) {
     .pie {
         display: flex;

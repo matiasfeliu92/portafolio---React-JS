@@ -8,12 +8,24 @@
     margin-top: 5px;
 }
 
+.disable {
+    display: none;
+}
+
 .personal__titulo {
     display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         cursor: pointer;
+}
+
+.personal__titulo:hover {
+    color: white;
+}
+
+.personal__titulo i:hover {
+    color: white;
 }
 
 .personal__contenido {

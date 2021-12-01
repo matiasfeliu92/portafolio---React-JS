@@ -13,6 +13,15 @@
     align-items: center;
     cursor: pointer;
 }
+
+.tituloHab:hover {
+    color: white;
+}
+
+.tituloHab i:hover {
+    color: white;
+}
+
 .compet__hab {
     display: flex;
     flex-direction: row;

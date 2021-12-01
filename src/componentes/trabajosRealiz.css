@@ -20,6 +20,14 @@
         cursor: pointer;
 }
 
+.trabajos__titulo:hover {
+    color: white;
+}
+
+.trabajos__titulo i:hover {
+    color: white;
+}
+
 .trabajos__work {
     display: flex;
         flex-direction: column;
@@ -45,20 +53,28 @@
 
 .trabajos__webs a {
     text-decoration: none;
-                color: black;
+    color: black;
+    border: none;
+    font-size: 20px;
 }
 
 .trabajos__img {
     width: 100%;
     height: auto;
     border-radius: 30px;
-    border: 1px solid black;
 }
 
 .trabajos__webs:hover {
     transform: scale(1, 1);
     transition: all 0.25s ease-out;
     background-color: rgb(156, 156, 156);
+    border-radius: 25px;
+}
+
+.linkGit:hover {
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
 }
 
 @media (max-width: 425px) {
