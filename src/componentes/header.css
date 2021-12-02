@@ -45,6 +45,7 @@ a {
     font-size: 20px;
 }
 a:hover {
-    border: 1px solid black;
+    cursor: pointer;
     border-radius: 30px;
+    font-weight: bolder;
 }
