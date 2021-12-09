@@ -6,7 +6,6 @@ class Navegacion extends React.Component {
         const itemsNav = [
             {itemName: "Portada", itemLink: "#Portada"},
             {itemName: "Sobre Mi", itemLink: "#sobreMi"},
-            {itemName: "Profesional", itemLink: "#profesional"},
             {itemName: "Habilidades", itemLink: "#habilidades"},
             {itemName: "Trabajos Realizados", itemLink: "#trabajosRealizados"},
         ]

@@ -18,8 +18,8 @@ const Perfil = (props) => {
             <img className="personal__img" src={foto} alt="foto personal"/>
         </div>
         <div className="personal__texto">
-            <p>Soy Arquitecto, actualmente estoy enfocado en el Desarrollo Front End, me gusta la informática, navegar por internet, tengo muy buen manejo de pc y me interesa el desarrollo las paginas web. Mi objetivo es desempeñarme como desarrollador
-            front end.</p>
+            <p>Soy Arquitecto, me gusta la informática, navegar por internet, tengo muy buen manejo de pc y me interesa aprender a programar.
+            Mi objetivo es aprender nuevas tecnologias, buscar nuevos desafíos y desarrollarme como profesional en el entorno de la programacion.</p>
         </div>
     </div>)
     } else contenido = null

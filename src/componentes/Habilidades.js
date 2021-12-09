@@ -20,6 +20,7 @@ const Habilidades  = () => {
         {nombre: "GitHub", class: "fab fa-github"},
         {nombre: "JavaScript", class: "fab fa-js"},
         {nombre: "React Js", class: "fab fa-react"},
+        {nombre: "Node Js", class: "fab fa-node"},
     ]
 
     const ItemsHab= () => {
