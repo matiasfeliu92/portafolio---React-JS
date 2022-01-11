@@ -21,6 +21,9 @@ const Habilidades  = () => {
         {nombre: "JavaScript", class: "fab fa-js"},
         {nombre: "React Js", class: "fab fa-react"},
         {nombre: "Node Js", class: "fab fa-node"},
+        {nombre: "Python", class: "fab fa-python"},
+        {nombre: "MySql", class: "fas fa-database"},
+        {nombre: "MongoDb", class: "fas fa-database"}
     ]
 
     const ItemsHab= () => {

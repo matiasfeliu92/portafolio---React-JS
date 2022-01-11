@@ -8,14 +8,14 @@ class Footer extends React.Component {
                 <footer class="pie">
                     <div class="pie__nombre">
                         <em>Matias Mazparrote</em>
-                        <p>Desarrollador Front End</p>
+                        <p>Full Stack Developer</p>
                     </div>
                     <div class="pie__datos">
                         <em>@Copyright 2021</em>
                     </div>
                     <div class="pie__redes">
-                        <a href="https://www.linkedin.com/in/arq-mat%C3%ADas-mazparrote-feli%C3%BA/"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://github.com/matiasfeliu92?tab=repositories"><i class="bi bi-github"></i> </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/arq-mat%C3%ADas-mazparrote-feli%C3%BA/"><i class="bi bi-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/matiasfeliu92?tab=repositories"><i class="bi bi-github"></i> </a>
                     </div>
                 </footer>
             </React.Fragment>
