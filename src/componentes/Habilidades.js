@@ -29,7 +29,7 @@ const Habilidades  = () => {
 
     return (
         <React.Fragment>
-            <section id="habilidades" class="compet">
+            <section id="habilidades" class="compet" data-aos="fade-up" data-aos-duration="3000">
                 <div class="tituloHab">
                     <i class="bi bi-star"></i>
                     <h2 id="titulo-habilidades">Habilidades</h2>

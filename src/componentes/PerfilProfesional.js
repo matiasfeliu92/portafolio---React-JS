@@ -6,11 +6,11 @@ const Perfil = (props) => {
     return (
         <React.Fragment>
             <section id="sobreMi" className="personal">
-                <div className="personal__titulo">
+                <div className="personal__titulo" data-aos="fade-up" data-aos-duration="3000">
                     <i className="bi bi-person-square"></i>
                     <h2 className="text-center">Perfil Profesional</h2>
                 </div>
-                <div className="personal__contenido">
+                <div className="personal__contenido" data-aos="fade-up" data-aos-duration="3000">
                     <div className="personal__foto">
                         <img className="personal__img" src={foto} alt="foto personal"/>
                     </div>

@@ -8,7 +8,7 @@ class Header extends React.Component {
             <React.Fragment>
                 <header id="Portada">
                     <div class="portada__presentacion">
-                        <div data-aos="flip-left" data-aos-duration="3000" class="portada__texto">
+                        <div data-aos="fade-down" data-aos-duration="3000" class="portada__texto">
                             <blockquote>
                                 <i class="bi bi-display"></i>
                                 <h1>Matias Mazparrote Feliu</h1>

@@ -33,7 +33,7 @@ const Trabajos = () => {
 
     return (
         <React.Fragment>
-            <section id="trabajosRealizados" class="trabajos">
+            <section id="trabajosRealizados" class="trabajos" data-aos="fade-up" data-aos-duration="3000">
                 <div class="trabajos__titulo">
                     <i class="bi bi-folder2"></i>
                     <h2 id="titulo-trabajos">Trabajos Realizados</h2>
