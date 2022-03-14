@@ -1,7 +1,6 @@
 import React from 'react';
 import './perfilProfes.css';
 import foto from "../assets/images/USAR NUEVA FOTO C.V. recortada.jpg"
-import { useState } from 'react';
 
 const Perfil = (props) => {
     return (

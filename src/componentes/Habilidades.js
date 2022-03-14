@@ -16,7 +16,8 @@ const Habilidades  = () => {
         {nombre: "Node Js", class: "fab fa-node"},
         {nombre: "Python", class: "fab fa-python"},
         {nombre: "MySql", class: "fas fa-database"},
-        {nombre: "MongoDb", class: "fas fa-database"}
+        {nombre: "MongoDb", class: "fas fa-database"},
+        {nombre: "Solidity", class: "fa-brands fa-ethereum"}
     ]
 
     const habItems = iconosHab.map((icon) => 
