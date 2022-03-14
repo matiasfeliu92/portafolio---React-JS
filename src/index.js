@@ -15,9 +15,7 @@ ReactDOM.render(
     <Navegacion />
     <Header />
     <Perfil />
-    <hr/>
     <Habilidades />
-    <hr/>
     <Works />
     <Footer />
   </React.StrictMode>,

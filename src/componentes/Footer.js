@@ -8,7 +8,7 @@ class Footer extends React.Component {
                 <footer class="pie">
                     <div class="pie__nombre">
                         <em>Matias Mazparrote</em>
-                        <p>Full Stack Developer</p>
+                        <p>Full Stack & BlockChain Developer</p>
                     </div>
                     <div class="pie__datos">
                         <em>@Copyright 2021</em>

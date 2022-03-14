@@ -12,7 +12,7 @@ class Header extends React.Component {
                             <blockquote>
                                 <i class="bi bi-display"></i>
                                 <h1>Matias Mazparrote Feliu</h1>
-                                <small>Full Stack Developer</small>
+                                <small>Full Stack & BlockChain Developer</small>
                                 <a target="_blank" href={cv}>Descargar CV</a>
                             </blockquote>
                         </div>

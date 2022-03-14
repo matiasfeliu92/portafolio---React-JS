@@ -3,13 +3,6 @@ import './hab.css';
 import { useState } from 'react';
 
 const Habilidades  = () => {
-    const [show, setShow] = useState(false)
-
-    const mostrarCont = () => {
-        setShow(!show)
-    }
-
-    let contenido 
 
     const iconosHab = [
         {nombre: "Html 5", class: "fab fa-html5"},
@@ -26,31 +19,21 @@ const Habilidades  = () => {
         {nombre: "MongoDb", class: "fas fa-database"}
     ]
 
-    const ItemsHab= () => {
-        const habItems = iconosHab.map((icon) => 
-            <div class="compet__habText col-md-2">
-                <i class={icon.class}></i>
-                <h4 class="text-center">{icon.nombre}</h4> 
-            </div>
-        )
-
-        return (
-            <div class="compet__hab">{habItems}</div>
-        )
-    }
-
-    if (show) {
-        contenido = ItemsHab()
-    } else contenido = null
+    const habItems = iconosHab.map((icon) => 
+        <div class="compet__habText col-md-2">
+            <i class={icon.class}></i>
+            <h4 class="text-center">{icon.nombre}</h4> 
+        </div>
+    )
 
     return (
         <React.Fragment>
             <section id="habilidades" class="compet">
-                <div onClick= {mostrarCont} class="tituloHab">
+                <div class="tituloHab">
                     <i class="bi bi-star"></i>
                     <h2 id="titulo-habilidades">Habilidades</h2>
                 </div>
-                {contenido}
+                <div class="compet__hab">{habItems}</div>
             </section>
         </React.Fragment>
     )

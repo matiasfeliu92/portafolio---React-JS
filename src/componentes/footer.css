@@ -5,11 +5,12 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 .pie__nombre {
-    font-family: 'Poppins';
+    font-family: 'JetBrains Mono', monospace;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -28,7 +29,7 @@
 .pie__datos em {
         font-size: 30px;
         font-style: normal;
-        font-family: 'Poppins';
+        font-family: 'JetBrains Mono', monospace;
 }
 
 .pie__redes {
@@ -41,7 +42,7 @@
     border: none;
 }
 
-.pie__redes a i:hover {
+.pie__redes a i {
     color: white;
 }
 

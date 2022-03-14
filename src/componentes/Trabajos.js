@@ -9,14 +9,6 @@ import { useState } from 'react';
 
 const Trabajos = () => {
 
-    const [show, setShow] = useState(false)
-
-    const mostrarCont = () => {
-        setShow(!show)
-    }
-
-    let contenido 
-
     const trabajos = [
         {titulo: "Portafolio de arquitectura", descripcion1: "Pagina web de portafolio para arquitectos, realizada como trabajo final para el curso de Desarrollo Web", descripcion2: "Tecnologias usadas: Html 5, Css 3 con Bootstrap 5, Sass y JavaScript con libreria JQuery", link: "https://arq-matias-mazparrote-feliu.netlify.app/", img: webArq, linkGit: "https://github.com/matiasfeliu92/Repositorio-Avances-Proyecto-Curso-HTML-y-CSS"},
         {titulo: "Web de venta de mates", descripcion1: "Pagina web realizada para mostrar y vender mates con distintos diseños", descripcion2: "Tecnologias usadas: Html 5, Css 3 con Bootstrap 5 y Sass", link: "https://guen-gaucho.netlify.app/", img: webMates, linkGit: "https://github.com/matiasfeliu92/Guen-Gaucho"},
@@ -25,36 +17,26 @@ const Trabajos = () => {
         {titulo: "Portafolio con CV", descripcion1: "Pagina web para ,mostrar mi CV, perfil profesional, mis habilidades y mis trabajos que realice como desarrollador", descripcion2: "Tecnologias usadas: JavaScript y React Js",link: "https://portafolio-react.netlify.app/", img: webPort, linkGit: "https://github.com/matiasfeliu92/portafolio---React-JS"},
     ]
     
-    const Works = () => {
-        const worksItems = trabajos.map ((item) => 
-            <div className="trabajos__webs">
-                <h4 className="text-center">{item.titulo}</h4>
-                <a className="linkGit" target="_blank" href={item.linkGit}>Link al GitHub</a>
-                <p className="text-center">{item.descripcion1}</p>
-                <p className="text-center">{item.descripcion2}</p>
-                <a target="_blank" href={item.link}>
-                    <img className="trabajos__img text-center" src={item.img} />
-                </a>
-            </div>
-        )
-
-        return (
-            <div class="trabajos__work">{worksItems}</div>
-        )
-    }
-
-    if (show) {
-        contenido = Works()
-    } else contenido = null
+    const worksItems = trabajos.map ((item) => 
+        <div className="trabajos__webs">
+            <h4 className="text-center">{item.titulo}</h4>
+            <a className="linkGit" target="_blank" href={item.linkGit}>Link al GitHub</a>
+            <p className="text-center">{item.descripcion1}</p>
+            <p className="text-center">{item.descripcion2}</p>
+            <a target="_blank" href={item.link}>
+                <img className="trabajos__img text-center" src={item.img} />
+            </a>
+        </div>
+    )
 
     return (
         <React.Fragment>
             <section id="trabajosRealizados" class="trabajos">
-                <div onClick= {mostrarCont} class="trabajos__titulo">
+                <div class="trabajos__titulo">
                     <i class="bi bi-folder2"></i>
                     <h2 id="titulo-trabajos">Trabajos Realizados</h2>
                 </div>
-                {contenido}
+                <div class="trabajos__work">{worksItems}</div>
             </section>
         </React.Fragment>
     )

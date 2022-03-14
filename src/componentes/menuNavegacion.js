@@ -12,7 +12,7 @@ class Navegacion extends React.Component {
 
         const ItemsMenu= () => {
             const listItems = itemsNav.map((item) => 
-            <li className="text-center p-1"> <a className="navItem" href={item.itemLink}> {item.itemName} </a> </li> 
+            <li className="text-center p-1"> <a className="navItem liFont" href={item.itemLink}> {item.itemName} </a> </li> 
             )
 
             return (
