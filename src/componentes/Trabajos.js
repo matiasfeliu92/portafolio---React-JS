@@ -5,12 +5,13 @@ import webMates from "../assets/images/web__guen gaucho.PNG"
 import webLibreria from "../assets/images/web__libreria tecnica.PNG"
 import webForm from "../assets/images/web__registro de usuarios.PNG"
 import webPort from "../assets/images/web__portafolio + cv.PNG"
+import workProgressGif from "../assets/images/Work-In-Progress.png"
 import './trabajosRealiz.css';
 
 const Trabajos = () => {
 
     const trabajos = [
-        {titulo: "App de disney", descripcion1: "Consiste en una app realizada para Alkemy, donde se pueden guardar y editar los personajes de Disney", descripcion2: "Tecnologias usadas: Node Js, Express y MySql", link: "", img: "", linkGit: "https://github.com/matiasfeliu92/Challenge-Backend-Alkemy--Node-Js"},
+        {titulo: "App de disney", descripcion1: "Consiste en una app realizada para Alkemy, donde se pueden guardar y editar los personajes de Disney", descripcion2: "Tecnologias usadas: Node Js, Express y MySql", link: "", img: workProgressGif, linkGit: "https://github.com/matiasfeliu92/Challenge-Backend-Alkemy--Node-Js"},
         {titulo: "App de canciones", descripcion1: "Consiste en una lista de musica, donde se pueden guardar y editar las canciones favoritas.", descripcion2: "Tecnologias usadas: Node Js, Express y MySql", link: "", img: appCanciones, linkGit: "https://github.com/matiasfeliu92/Proyecto-1-bootcamp-Node-Js-Fundamentals"},
         {titulo: "Web de libreria tecnica", descripcion1: "Pagina web e-commerce de una libreria, realizada como trabajo final para el curso de JavaScript", descripcion2: "Tecnologias usadas: Html 5, Css 3 y JavaScript con libreria JQuery", link: "https://libreria-tecnica.netlify.app/", img: webLibreria, linkGit: "https://github.com/matiasfeliu92/WEB-LIBRERIA-TECNICA-VERSION-FINAL"},
         {titulo: "Portafolio de arquitectura", descripcion1: "Pagina web de portafolio para arquitectos, realizada como trabajo final para el curso de Desarrollo Web", descripcion2: "Tecnologias usadas: Html 5, Css 3 con Bootstrap 5, Sass y JavaScript con libreria JQuery", link: "https://arq-matias-mazparrote-feliu.netlify.app/", img: webArq, linkGit: "https://github.com/matiasfeliu92/Repositorio-Avances-Proyecto-Curso-HTML-y-CSS"},

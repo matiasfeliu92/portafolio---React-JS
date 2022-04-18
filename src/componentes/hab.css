@@ -49,12 +49,6 @@ h4 {
     font-size: 20px;
 }
 
-.compet__habText:hover {
-    font-weight: 1000;
-    transform: scale(1.25, 1.25);
-    transition: all 600ms ease;
-}
-
 @media (max-width: 425px) {
     .compet {
         display: flex;

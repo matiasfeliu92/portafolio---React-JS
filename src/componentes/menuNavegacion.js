@@ -27,7 +27,7 @@ class Navegacion extends React.Component {
                 <nav className="sticky-top navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid nav__bar">
                         <button className="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="botonMobileNav navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ItemsMenu/>

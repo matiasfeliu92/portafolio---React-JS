@@ -47,6 +47,7 @@ a {
 }
 a:hover {
     cursor: pointer;
-    border-radius: 30px;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
     font-weight: bolder;
 }
