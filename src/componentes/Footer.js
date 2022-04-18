@@ -3,6 +3,7 @@ import './footer.css';
 
 class Footer extends React.Component {
     render () {
+        // const fechaActual = new Date()
         return (
             <React.Fragment>
                 <footer class="pie">
@@ -11,7 +12,7 @@ class Footer extends React.Component {
                         <p>Full Stack Developer</p>
                     </div>
                     <div class="pie__datos">
-                        <em>@Copyright 2021</em>
+                        <em>©Copyright {new Date().getFullYear()}</em>
                     </div>
                     <div class="pie__redes">
                         <a target="_blank" href="https://www.linkedin.com/in/arq-mat%C3%ADas-mazparrote-feli%C3%BA/"><i class="bi bi-linkedin"></i></a>
