@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Mi portafolio personal + CV
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Les presento mi portafolio, que incluye mi CV, informacion personal, y mis proyectos realizados
 
 ## Available Scripts
 
