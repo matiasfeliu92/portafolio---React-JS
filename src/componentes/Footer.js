@@ -3,7 +3,6 @@ import './footer.css';
 
 class Footer extends React.Component {
     render () {
-        // const fechaActual = new Date()
         return (
             <React.Fragment>
                 <footer class="pie">

@@ -12,6 +12,7 @@ const Habilidades  = () => {
         {nombre: "Git", class: "fab fa-git"},
         {nombre: "GitHub", class: "fab fa-github"},
         {nombre: "JavaScript", class: "fab fa-js"},
+        // {nombre: "TypeScript", class: "fab fa-ts"},
         {nombre: "React Js", class: "fab fa-react"},
         {nombre: "Node Js", class: "fab fa-node"},
         {nombre: "Python", class: "fab fa-python"},
