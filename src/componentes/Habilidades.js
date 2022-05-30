@@ -12,13 +12,12 @@ const Habilidades  = () => {
         {nombre: "Git", class: "fab fa-git"},
         {nombre: "GitHub", class: "fab fa-github"},
         {nombre: "JavaScript", class: "fab fa-js"},
-        // {nombre: "TypeScript", class: "fab fa-ts"},
+        {nombre: "TypeScript", class: "fa-brands fa-ethereum"},
         {nombre: "React Js", class: "fab fa-react"},
         {nombre: "Node Js", class: "fab fa-node"},
         {nombre: "Python", class: "fab fa-python"},
         {nombre: "MySql", class: "fas fa-database"},
-        {nombre: "MongoDb", class: "fas fa-database"},
-        {nombre: "Solidity", class: "fa-brands fa-ethereum"}
+        {nombre: "MongoDb", class: "fas fa-database"}
     ]
 
     const habItems = iconosHab.map((icon) => 
