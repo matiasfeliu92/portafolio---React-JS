@@ -5,7 +5,7 @@ import webMates from "../assets/videos/20220504_123203.mp4"
 import webLibreria from "../assets/videos/20220504_123452.mp4"
 import webForm from "../assets/videos/20220504_123002.mp4"
 import webPort from "../assets/videos/20220504_122700.mp4"
-import appDisney from "../assets/videos/20220530_104823.mp4"
+import appDisney from "../assets/videos/20220530_141843.mp4"
 // import workProgressGif from "../assets/images/Work-In-Progress.png"
 import './trabajosRealiz.css';
 
